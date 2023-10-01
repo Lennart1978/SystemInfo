@@ -1,0 +1,7 @@
+[Desktop Entry]
+   Type=Application
+   Name=Lennart's SysInfo
+   Exec=/home/lennart/bin/SystemInfo
+   Icon=/home/lennart/bin/Icon.png
+   Terminal=false
+   StartupNotify=true
