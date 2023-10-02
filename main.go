@@ -101,8 +101,10 @@ func getTemperature() (string, error) {
 
 	// Konvertieren Sie die Temperatur in Grad Celsius
 	tempValue := strings.TrimSpace(string(temperature))
-	tempInt := tempValue[:len(tempValue)-3]                          
-	tempFloat := tempInt[:len(tempInt)-2] + tempInt[len(tempInt)-2:] 
+	tempInt := tempValue[:len(tempValue)-3]
+	tempFloat := tempInt[:len(tempInt)-2] + tempInt[len(tempInt)-2:]
+
+	return tempFloat + " °C", nil
 }
 
 func getGPUModel() (string, error) {
