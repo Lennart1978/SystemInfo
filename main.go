@@ -1,3 +1,4 @@
+//go:generate fyne bundle -o bundled.go Icon.png
 package main
 
 import (
@@ -151,7 +152,9 @@ func getRAMSize() (string, error) {
 func main() {
 	// Create a new app and window
 	myApp := app.New()
+	myApp.SetIcon(resourceIconPng)
 	myWindow := myApp.NewWindow("Lennart's System Information V1.5")
+
 	myWindow.Resize(fyne.NewSize(windowWidth, windowHeight))
 	myWindow.SetFixedSize(true)
 
