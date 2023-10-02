@@ -2,6 +2,10 @@
 
 This Go application provides information about your system, including memory usage, disk space usage, user, hostname, operating system details, CPU information, GPU information, and more. It also allows you to empty the trash on your system.
 
+<p align="center">
+  <img src="./SystemInfo.png" alt="Screenshot">
+</p>
+
 ## Features
 
 - Display system information in an easy-to-read format.
